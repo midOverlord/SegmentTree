@@ -8,7 +8,7 @@ using namespace std;
 const int MAXN = 5e5 + 5e5 + 5e5 + 5;
 const int MAXV = 5e5 + 5;
 
-int n, q, a[MAXN], cur[MAXV], lazy[MAXN * 4], qL, qR, N, cntL = 0, cntR = 0;
+int n, q, a[MAXN], cur[MAXV], lazy[MAXN * 4], qL, qR, N;
 pair<int, int> st[MAXN * 4];
 
 void down(int id) {
@@ -86,4 +86,5 @@ signed main(void) {
     ios::sync_with_stdio(false); cin.tie(nullptr);
     process();
     return 0;
+
 }
